@@ -2,7 +2,10 @@
 
 /* ── configuration (props in the design prototype) ─────────────────────── */
 const WEIGHT_UNIT = 'kg';          // 'kg' | 'lb'
-const VIDEO_MODE = 'inline';       // 'inline' | 'link'
+// 'link' opens YouTube search results for the exercise (YouTube app on phones).
+// 'inline' embeds a search player, but YouTube deprecated listType=search
+// embeds, so they show "unavailable" — keep 'link' unless that changes.
+const VIDEO_MODE = 'link';
 const DEFAULT_TAB = 'week';        // 'week' | 'reference' | 'progress'
 
 /* ── plan data ──────────────────────────────────────────────────────────── */

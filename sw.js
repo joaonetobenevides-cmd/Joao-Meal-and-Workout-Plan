@@ -1,6 +1,6 @@
 /* Joao's Plan — service worker. Precaches the whole app so it works fully
    offline; exercise videos stream from YouTube and still need a connection. */
-const CACHE = 'joaos-plan-v1';
+const CACHE = 'joaos-plan-v2';
 const ASSETS = [
   './',
   'index.html',
